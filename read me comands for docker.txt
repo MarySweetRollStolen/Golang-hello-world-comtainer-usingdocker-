@@ -1,0 +1,10 @@
+Little try-out of conternazing golang "hello world" app
+
+command to build image in current folfer with name (tag) golang-hello-world-image-1.0.1
+docker build . -t golang-hello-world-image-1.0.1 
+
+command to run created image
+docker run  golang-hello-world-image-1.0.1
+
+expected result:
+hello world
